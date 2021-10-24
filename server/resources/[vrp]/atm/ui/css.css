@@ -1,0 +1,142 @@
+:focus { outline: 0; }
+::-webkit-scrollbar { width: 0; }
+::placeholder { color: #fff; letter-spacing: 2px; }
+::selection { background: transparent; color: #fff; }
+::-moz-selection { background: transparent; color: #fff; }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { -webkit-appearance: none; }
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 13px;
+	font-family: "Roboto",Arial,Helvetica,sans-serif;
+}
+
+* {
+	overflow: hidden;
+	user-select: none;
+	box-sizing: border-box;
+}
+
+#body {
+	width: 100vw;
+	height: 100vh;
+	display: none;
+	align-items: center;
+	justify-content: center;
+}
+
+#content {
+	width: 390px;
+	padding: 20px;
+	background: #222;
+	border-radius: 5px;
+	border-bottom: 1px solid #000;
+}
+
+#value {
+	border: 0;
+	color: #fff;
+	width: 350px;
+	padding: 12px;
+	font-size: 12px;
+	margin-top: 5px;
+	border-radius: 4px;
+	text-align: center;
+	background: #333;
+	text-transform: uppercase;
+	border-bottom: 1px solid #000;
+}
+
+#deposit {
+	color: #000;
+	float: left;
+	width: 170px;
+	padding: 10px;
+	margin-top: 4%;
+	font-size: 14px;
+	background: #008844;
+	text-align: center;
+	margin-right: 10px;
+	border-radius: 4px;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #000;
+}
+
+#deposit:hover {
+	color: #000;
+	background: #1d8b54;
+}
+
+#withdraw {
+	color: #000;
+	float: left;
+	width: 170px;
+	padding: 10px;
+	margin-top: 4%;
+	font-size: 14px;
+	background: #008844;
+	text-align: center;
+	border-radius: 4px;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #000;
+}
+
+#withdraw:hover {
+	color: #000;
+	background: #1d8b54;
+}
+
+#transfer {
+	color: #000;
+	float: left;
+	width: 170px;
+	padding: 10px;
+	margin-top: 4%;
+	font-size: 14px;
+	background: #008844;
+	text-align: center;
+	border-radius: 4px;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #000;
+}
+
+#transfer:hover {
+	color: #000;
+	background: #1d8b54;
+}
+
+#transferId {
+	border: 0;
+	color: #ccc;
+	float: left;
+	width: 170px;
+	padding: 11px;
+	margin-top: 4%;
+	font-size: 14px;
+	background: #333;
+	border-radius: 4px;
+	margin-right: 10px;
+	text-align: center;
+	letter-spacing: 2px;
+	border-bottom: 1px solid #000;
+}
+
+#transferId::placeholder {
+	color: #ccc;
+}
+
+#money {
+    color: #ccc;
+    padding: 17px;
+    margin: 0px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    background: #333;
+    border-radius: 4px;
+    text-align: center;
+    letter-spacing: 2px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
